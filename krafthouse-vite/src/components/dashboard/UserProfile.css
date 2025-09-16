@@ -1,0 +1,39 @@
+/* Mobile Responsive Cover Photo */
+@media (max-width: 768px) {
+    .cover-photo {
+      height: 250px !important;
+    }
+    
+    .profile-info-overlay {
+      flex-direction: column !important;
+      align-items: center !important;
+      text-align: center !important;
+    }
+    
+    .profile-picture {
+      width: 100px !important;
+      height: 100px !important;
+      margin-bottom: 1rem !important;
+    }
+    
+    .profile-name {
+      font-size: 2rem !important;
+    }
+  }
+  
+  /* Cover Photo Animation */
+  .cover-photo-container {
+    transition: all 0.3s ease;
+  }
+  
+  .cover-photo-container:hover .cover-upload-btn {
+    opacity: 1;
+    transform: translateY(0);
+  }
+  
+  .cover-upload-btn {
+    opacity: 0.8;
+    transform: translateY(-5px);
+    transition: all 0.3s ease;
+  }
+  
